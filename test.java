@@ -18,14 +18,21 @@ public void spam(){
 
 }
 
-public class test {
-
-  public static class name {
+  class name {
   String name;
 
   void setName (String n) {
           name = n;
   }
+  String getName(){
+
+    return name;
+
+  }
+}
+
+public class test {
+
 
 public static void main(String[] args){
 
@@ -66,6 +73,5 @@ public static void main(String[] args){
                 }
 
         }
-}
 }
 }
