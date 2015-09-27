@@ -22,6 +22,14 @@ public void spam(){
 
 }
 
+public void flip(){
+
+String flip = new StringBuffer(name).reverse().toString();
+
+System.out.println("Your name flipped is:\n" + flip + "\n");
+
+}
+
 }
 
 class name {
@@ -64,7 +72,7 @@ public static void main(String[] args){
                         logic.spam();
                         break;
                 case 2:
-
+                        logic.flip();
                         break;
                 case 3:
                         System.out.println("Bye Bye");
