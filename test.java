@@ -28,30 +28,29 @@ public static void main(String[] args){
 
         boolean run = true;
 
-        while(run){
+        while(run) {
 
-          System.out.println("\nMain Menu:\n\n1. Name Spam\n2. Name Flip\n3. Quit");
+                System.out.println("\nMain Menu:\n\n1. Name Spam\n2. Name Flip\n3. Quit\n(1,2,3)");
 
-          int choice = scan.nextInt();
+                int choice = scan.nextInt();
 
-        switch(choice){
+                switch(choice) {
 
-          case 1:
+                case 1:
 
-            break;
+                        break;
+                case 2:
 
-          case 2:
+                        break;
+                case 3:
 
-            break;
+                        break;
+                default:
+                        System.out.println("Sorry that's not a valid choice");
 
-          case 3:
-
-            break;
-          default:
+                }
 
         }
-
-}
 }
 
 }
