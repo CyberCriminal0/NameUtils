@@ -1,3 +1,4 @@
+//Created by Jack Eller
 import java.util.Scanner;
 
 class logic {
@@ -26,7 +27,7 @@ public void flip(){
 
 String flip = new StringBuffer(name).reverse().toString();
 
-System.out.println("Your name flipped is:\n" + flip + "\n");
+System.out.println("Your name flipped is:\n\n" + flip);
 
 }
 
