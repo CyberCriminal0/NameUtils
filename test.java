@@ -1,22 +1,32 @@
 import java.util.Scanner;
 
-public class test {
 
+class name {
+        String name;
+
+        void setName (String n) {
+           name = n;
+        }
+
+}
+
+
+
+public class test {
 
 public static void main(String[] args){
 
         Scanner scan = new Scanner(System.in);
 
-        String name;
+        name user = new name();
 
         System.out.println("Welcome to test! What is your name?");
 
-        name = scan.nextLine();
+        user.setName(scan.nextLine());
 
-        System.out.println("Hello " + name + "! \nWelcome to Test! I am a program that does nothing useful!");
+        System.out.println("Hello " + user.name + "! \nWelcome to Test! I am a program that does nothing useful!");
 
-
-
+        System.out.println("\n Main Menu:\n1. Name Spam\n2. ");
 
 }
 
