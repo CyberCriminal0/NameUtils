@@ -2,6 +2,14 @@ import java.util.Scanner;
 
 class logic {
 
+String name;
+
+public logic(String n){
+  this.name = n;
+}
+
+
+
 public void spam(){
 
   Scanner scan = new Scanner(System.in);
@@ -24,11 +32,7 @@ public void spam(){
   void setName (String n) {
           name = n;
   }
-  String getName(){
 
-    return name;
-
-  }
 }
 
 public class test {
@@ -46,7 +50,7 @@ public static void main(String[] args){
 
         System.out.println("Hello " + user.name + "! \nWelcome to Test! I am a program that does nothing useful!");
 
-        logic logic = new logic();
+        logic logic = new logic(user.name);
 
         boolean run = true;
 
