@@ -13,7 +13,9 @@ public static void main(String[] args){
 
         name = scan.nextLine();
 
-        System.out.println("Hello " + name + " \n welcome to Test! I am a program that does nothing useful!");
+        System.out.println("Hello " + name + "! \nWelcome to Test! I am a program that does nothing useful!");
+
+
 
 
 }
