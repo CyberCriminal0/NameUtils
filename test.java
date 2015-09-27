@@ -10,6 +10,13 @@ void setName (String n) {
 
 }
 
+class logic{
+
+
+
+}
+
+
 
 
 public class test {
@@ -25,6 +32,8 @@ public static void main(String[] args){
         user.setName(scan.nextLine());
 
         System.out.println("Hello " + user.name + "! \nWelcome to Test! I am a program that does nothing useful!");
+
+        logic logic = new logic();
 
         boolean run = true;
 
@@ -46,7 +55,7 @@ public static void main(String[] args){
 
                         break;
                 default:
-                        System.out.println("Sorry that's not a valid choice");
+                        System.out.println("\nSorry that's not a valid choice");
 
                 }
 
