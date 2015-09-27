@@ -10,14 +10,15 @@ void setName (String n) {
 
 }
 
-class logic{
+class logic {
 
+public void spam(){
 
+  Scanner scan = new Scanner(System.in);
 
 }
 
-
-
+}
 
 public class test {
 
