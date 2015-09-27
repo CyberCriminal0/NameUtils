@@ -26,8 +26,32 @@ public static void main(String[] args){
 
         System.out.println("Hello " + user.name + "! \nWelcome to Test! I am a program that does nothing useful!");
 
-        System.out.println("\nMain Menu:\n\n1. Name Spam\n2. Name Flip\n3. Quit");
+        boolean run = true;
 
+        while(run){
+
+          System.out.println("\nMain Menu:\n\n1. Name Spam\n2. Name Flip\n3. Quit");
+
+          int choice = scan.nextInt();
+
+        switch(choice){
+
+          case 1:
+
+            break;
+
+          case 2:
+
+            break;
+
+          case 3:
+
+            break;
+          default:
+
+        }
+
+}
 }
 
 }
