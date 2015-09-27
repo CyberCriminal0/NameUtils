@@ -1,15 +1,5 @@
 import java.util.Scanner;
 
-
-class name {
-String name;
-
-void setName (String n) {
-        name = n;
-}
-
-}
-
 class logic {
 
 public void spam(){
@@ -29,6 +19,13 @@ public void spam(){
 }
 
 public class test {
+
+  public static class name {
+  String name;
+
+  void setName (String n) {
+          name = n;
+  }
 
 public static void main(String[] args){
 
@@ -70,5 +67,5 @@ public static void main(String[] args){
 
         }
 }
-
+}
 }
