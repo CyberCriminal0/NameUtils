@@ -16,6 +16,14 @@ public void spam(){
 
   Scanner scan = new Scanner(System.in);
 
+  System.out.println("How many times would you like the name spammed?");
+
+  int spam = scan.nextInt();
+
+  for(int x = 0; x < spam; x++){
+    System.out.println();
+  }
+
 }
 
 }
