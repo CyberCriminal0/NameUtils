@@ -5,33 +5,31 @@ class logic {
 String name;
 
 public logic(String n){
-  this.name = n;
+        this.name = n;
 }
-
-
 
 public void spam(){
 
-  Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
-  System.out.println("How many times would you like the name spammed?");
+        System.out.println("How many times would you like your name spammed?");
 
-  int spam = scan.nextInt();
+        int spam = scan.nextInt();
 
-  for(int x = 0; x < spam; x++){
-    System.out.println();
-  }
-
-}
+        for(int x = 0; x < spam; x++) {
+                System.out.println(name);
+        }
 
 }
 
-  class name {
-  String name;
+}
 
-  void setName (String n) {
-          name = n;
-  }
+class name {
+String name;
+
+void setName (String n) {
+        name = n;
+}
 
 }
 
@@ -63,13 +61,14 @@ public static void main(String[] args){
                 switch(choice) {
 
                 case 1:
-
+                        logic.spam();
                         break;
                 case 2:
 
                         break;
                 case 3:
-
+                        System.out.println("Bye Bye");
+                        System.exit(0);
                         break;
                 default:
                         System.out.println("\nSorry that's not a valid choice");
